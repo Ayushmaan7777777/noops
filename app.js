@@ -62,6 +62,7 @@ function btoa(){
     }
 }
 function check(){
+    if (!start) return; // Do nothing if game hasn't started
     let btn = this;
     userflash(btn);
     userbtn = btn.classList[1];
